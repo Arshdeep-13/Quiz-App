@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="heading">Quiz</h1>
+    </div>
+    <div class="main">
+        <div class="container">
+            <span id="totalQuestions">No of Questions : 10</span>
+            <div class="question">
+                <span>A Complete graph has </span>
+            </div>
+            <form method="get">
+                <div class="answers">
+                    <ul>
+                        <li>
+                            <input type="radio" name="option" value="all leaf nodes are on same level" >
+                            <span>all leaf nodes are on same level</span>
+                        </li>
+                        <li>
+                            <input type="radio" name="option" value="all leaf nodes are on as left as possible" >
+                            <span>all leaf nodes are on as left as possible</span>
+                        </li>
+                        <li>
+                            <input type="radio" name="option" value="both a and b" >
+                            <span>both a and b</span>
+                        </li>
+                        <li>
+                            <input type="radio" name="option" value="None of these" >
+                            <span>None of these</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="result">
+                    <span id="correct">Correct</span>
+                    <span id="incorrect">Incorrect</span>
+                </div>
+                <div class="submitbtn">
+                    <button type="button" id="previous">Previous</button>
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="button" id="next">Next</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
